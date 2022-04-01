@@ -5,9 +5,6 @@ libs = ['lib']
 gas_reports = ["*"]
 solc_version = '0.8.10'
 # eth-rpc-url = "YOUR-RPC-URL"
-remappings = [
-    "ds-test/=lib/ds-test/src/"
-]
 verbosity = 2
 
 # See more config options https://github.com/gakonst/foundry/tree/master/config
