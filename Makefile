@@ -2,6 +2,9 @@
 # (-include to ignore error if it does not exist)
 -include .env
 
+# Initialize
+init        :; forge update
+
 # Build & test & deploy
 build         	:; forge build
 clean        	:; forge clean
