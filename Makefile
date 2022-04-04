@@ -9,5 +9,5 @@ init		:; forge update
 build		:; forge build
 clean		:; forge clean
 test		:; forge test
-testeth		:; forge test -vv
-testftm		:; forge test -f https://rpc.ftm.tools/ -vv
+testeth		:; forge test -vvvv
+testftm		:; forge test -f https://rpc.ftm.tools/ -vvvv
