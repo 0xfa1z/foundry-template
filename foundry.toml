@@ -4,7 +4,6 @@ out = 'out'
 libs = ['lib']
 gas_reports = ["*"]
 solc_version = '0.8.10'
-# eth-rpc-url = "YOUR-RPC-URL"
 verbosity = 2
 
 # See more config options https://github.com/gakonst/foundry/tree/master/config

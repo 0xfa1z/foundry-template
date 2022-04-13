@@ -9,5 +9,6 @@ init		:; forge update
 build		:; forge build
 clean		:; forge clean
 test		:; forge test
-testeth		:; forge test -vvvv
+testeth		:; forge test -f ${ETH-RPC-URL}
+testrby		:; forge test -f ${RBY-RPC-URL}
 testftm		:; forge test -f https://rpc.ftm.tools/ -vvvv
